@@ -10,11 +10,11 @@ package estructura_de_datos_actividad_1;
  */
 public class Estructura_de_datos_actividad_1 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        String nombre = "Arnold Gabriel";
+        String apellido = "Retavisca Avila";
+        System.out.println("Mis nombres son: " + nombre + " y mis apellidos son: " + apellido);
     }
     
 }
