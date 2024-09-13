@@ -9,5 +9,21 @@ package estructura_de_datos_actividad_1;
  * @author 303
  */
 public class Segundo_Punto {
+    //Se declara para poder usar el objeto scanner
+    Scanner sc= new Scanner(System.in);
+
+    //Se solicittan datos al usuario
+    System.out.println("Ingrese un numero: ");
+    float num1 = sc.nextFloat();
+    System.out.println("Ingrese otro numero");
+    float num2 = sc.nextFloat();
+
+    //Se declaran las variables donde se opera
+    float suma = num1 + num2;
+    float mult = num1 * num2;
+
+    //Se muetran en pantalla los resultados de la operacion de los numeros dados
+    System.out.println("El resultado de la suma de los numeros es: " + suma);
+    System.out.println("El resultado de la multiplicacion es: " + mult);
     
 }
