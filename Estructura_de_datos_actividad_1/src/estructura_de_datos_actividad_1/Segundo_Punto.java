@@ -25,5 +25,18 @@ public class Segundo_Punto {
     //Se muetran en pantalla los resultados de la operacion de los numeros dados
     System.out.println("El resultado de la suma de los numeros es: " + suma);
     System.out.println("El resultado de la multiplicacion es: " + mult);
+
+
+    //EL volumen del cilindro
+    System.out.println("Ingrese un el radio del cilindro: ");
+    float radio = sc.nextFloat();
+    System.out.println("Ingrese la altura del cilindro: ");
+    float altura = sc.nextFloat();
+    
+    
+    //Se aplica a la formula 
+    float volumen = 3.1416(radio * altura);
+    
+    System.out.println("EL volumen del cilindro es: " + volumen);
     
 }
